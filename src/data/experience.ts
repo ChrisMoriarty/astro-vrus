@@ -2,61 +2,69 @@ import type { Props as ExperienceProp } from "../components/experience/props";
 
 export const EXPERIENCE: ExperienceProp[] = [
   {
-    dates: "November 2021 — Present",
-    title: "Full Stack Engineer",
-    company: "Dutch Pet (Remote)",
-    companyUrl: "https://www.dutch.com",
+    dates: "October 2024 — Present",
+    title: "Cloud Engineer",
+    company: "Minor Planet Center (Contract)",
+    companyUrl:
+      "https://www.cfa.harvard.edu/facilities-technology/cfa-facilities/minor-planet-center",
     description:
-      "Designed and architected dutch.com, utilizing technologies such as Shopify Storefront API, Admin API, Vue.JS, Node.JS, Liquid, Alpine.js, and Tailwind. Worked on integrating with the ReCharge subscription system and collaborated closely with designers to implement pixel-perfect layouts and user flows.",
+      "Part time contract to build out a second physical site for backup and disaster recovery. I designed, built and \
+      deployed the primary virtualization system to migrate off of old poorly maintained IT infrastructure. I chose to \
+      use XCP-ng and Xen Orchestra, and a high speed SAN for shared across the hypervisors. All of which is integrated \
+      with full system monitoring solution based on prometheus and grafana.",
     technologies: [
-      "Shopify Storefront API",
-      "Shopify Admin API",
-      "Vue.JS",
-      "Node.JS",
-      "Liquid",
-      "Alpine.js",
-      "Tailwind",
+      "XCP-ng",
+      "Xen Orchestra",
+      "SAN",
+      "Networking",
+      "Prometheus",
+      "Grafana",
+      "Docker",
     ],
-    logo: "/logos/dutchpet.jpeg",
+    logo: "/logos/mpc.png",
   },
   {
-    dates: "March 2021 — November 2021",
-    title: "Full Stack Ecommerce Engineer",
-    company: "AbsoluteWeb",
-    companyUrl: "https://www.absoluteweb.com",
+    dates: "Septemer 2021 — August 2024",
+    title: "Technical Manager",
+    company: "Minor Planet Center",
+    companyUrl:
+      "https://www.cfa.harvard.edu/facilities-technology/cfa-facilities/minor-planet-center",
     description:
-      "Developed and maintained e-commerce solutions on Shopify (Storefront API, Admin API), BigCommerce, and Magento using React JS, Vue JS, Node JS, Liquid, SASS/PostCSS. Worked on integrating with the ReCharge subscription system and collaborated closely with designers to implement pixel-perfect layouts and user flows.",
+      "Developed a Docker-based framework for hosting public facing React based web content and Python APIs using Flask, \
+      with fast access to a replicated operational database. Reorganized management of the team by dividing operations and \
+      software development into separate workflows, leveraging Jira Service Desk and Jira Software Cloud. Wrangled many \
+      disparate code projects into a structured mono-repository, building a software development process around feature \
+      branching and pull requests using Github. Hired and directly manage two junior software engineers. Mentored an intern \
+      to develop a Near Earth Object classifier using TensorFlow.",
     technologies: [
-      "React JS",
-      "Vue JS",
-      "Node JS",
-      "Shopify Storefront API",
-      "Shopify Admin API",
-      "BigCommerce",
-      "Magento",
-      "Liquid",
-      "SASS/PostCSS",
+      "Linux Administration",
+      "Project Management",
+      "Python",
+      "PostgreSQL",
+      "Git",
+      "Jira",
+      "Docker",
+      "XCP-ng",
+      "Xen Orchestra",
+      "Prometheus",
+      "Grafana",
     ],
-    logo: "/logos/aws.jpeg",
+    logo: "/logos/mpc.png",
   },
   {
-    dates: "December 2019 — January 2021",
-    title: "Product Designer",
-    company: "Miinto",
+    dates: "September 2018 — September 2021",
+    title: "Senior Software Engineer",
+    company: "Submillimeter Array",
     companyUrl: "https://www.miinto.com",
     description:
-      "Created a Design System for the internal system using Figma. Developed a plugin for Figma to populate prototypes with real data to enhance the prototyping and testing experience. Conducted user research and testing, and created user flows, wireframes, and Hi-Fi prototypes.",
-    technologies: ["Figma"],
-    logo: "/logos/miinto.jpeg",
-  },
-  {
-    dates: "January 2019 — September 2019",
-    title: "Front-End Engineer",
-    company: "Efigence",
-    companyUrl: "https://www.efigence.com",
-    description:
-      "Worked on developing a Polish Government Joint Stock Company website using JS, Magnolia CMS, and FreeMarker.",
-    technologies: ["JavaScript", "Magnolia CMS", "FreeMarker"],
-    logo: "/logos/efigence.jpeg",
+      "Brought project management and software engineering best practices to the entire team. \
+      Persuaded team to adopt Google Calendar, Slack, Google Team Drive, and Github. \
+      Architected networking and software improvements for the SWARM FPGA data correlator. \
+      Fixed and automated Very Long Baseline Interferometry (VLBI) software, greatly improving Event Horizon Telescope campaigns. \
+      Developed Python API for a Redis based messaging system. \
+      Co-organized observatory wide multi-day operations review. \
+      Started the CfA Software Engineering Steering Committee, and served as the chair.",
+    technologies: ["Python", "C", "Real-time OS", "Open Project", "Redis"],
+    logo: "/logos/sma.png",
   },
 ];
