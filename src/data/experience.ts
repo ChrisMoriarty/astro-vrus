@@ -10,7 +10,7 @@ export const EXPERIENCE: ExperienceProp[] = [
     description:
       "Part time contract to build out a second physical site for backup and disaster recovery. I designed, built and \
       deployed the primary virtualization system to migrate off of old poorly maintained IT infrastructure. I chose to \
-      use XCP-ng and Xen Orchestra, and a high speed SAN for shared across the hypervisors. All of which is integrated \
+      use XCP-ng and Xen Orchestra, and a high speed SAN for shared storage across the hypervisors. All of which is integrated \
       with full system monitoring solution based on prometheus and grafana.",
     technologies: [
       "XCP-ng",
@@ -58,12 +58,12 @@ export const EXPERIENCE: ExperienceProp[] = [
     companyUrl: "https://www.miinto.com",
     description:
       "Brought project management and software engineering best practices to the entire team. \
-      Persuaded team to adopt Google Calendar, Slack, Google Team Drive, and Github. \
+      Persuaded team to adopt Google Calendar, Slack, Google Team Drive, Feature Branching, Issue Tracking and Release Planning. \
       Architected networking and software improvements for the SWARM FPGA data correlator. \
       Fixed and automated Very Long Baseline Interferometry (VLBI) software, greatly improving Event Horizon Telescope campaigns. \
       Developed Python API for a Redis based messaging system. \
       Co-organized observatory wide multi-day operations review. \
-      Started the CfA Software Engineering Steering Committee, and served as the chair.",
+      Started the Center For Astrophysics (CfA) Software Engineering Steering Committee, and served as the chair.",
     technologies: ["Python", "C", "Real-time OS", "Open Project", "Redis"],
     logo: "/logos/sma.png",
   },
