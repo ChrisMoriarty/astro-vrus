@@ -7,6 +7,6 @@ import react from "@astrojs/react";
 export default defineConfig({
   output: "static",
   site: "https://ChrisMoriarty.github.io/",
-  // base: "/src",
+  base: "/moriartyengineering",
   integrations: [tailwind(), react()],
 });
