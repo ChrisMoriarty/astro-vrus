@@ -21,7 +21,7 @@ export const EXPERIENCE: ExperienceProp[] = [
       "Grafana",
       "Docker",
     ],
-    logo: "/moriartyengineering/logos/mpc.png",
+    logo: "/logos/mpc.png",
   },
   {
     dates: "Septemer 2021 — August 2024",
@@ -49,7 +49,7 @@ export const EXPERIENCE: ExperienceProp[] = [
       "Prometheus",
       "Grafana",
     ],
-    logo: "/moriartyengineering/logos/mpc.png",
+    logo: "/logos/mpc.png",
   },
   {
     dates: "September 2018 — September 2021",
@@ -65,6 +65,6 @@ export const EXPERIENCE: ExperienceProp[] = [
       Co-organized observatory wide multi-day operations review. \
       Started the Center For Astrophysics (CfA) Software Engineering Steering Committee, and served as the chair.",
     technologies: ["Python", "C", "Real-time OS", "Open Project", "Redis"],
-    logo: "/moriartyengineering/logos/sma.png",
+    logo: "/logos/sma.png",
   },
 ];
