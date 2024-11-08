@@ -5,9 +5,9 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  output: "static",
-  public: "./public/",
+  // output: "static",
+  // public: "./public/",
   site: "https://www.moriartyengineering.com",
-  base: "/moriartyengineering",
+  // base: "/moriartyengineering",
   integrations: [tailwind(), react()],
 });
