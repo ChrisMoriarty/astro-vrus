@@ -55,7 +55,7 @@ export const EXPERIENCE: ExperienceProp[] = [
     dates: "September 2018 — September 2021",
     title: "Senior Software Engineer",
     company: "Submillimeter Array",
-    companyUrl: "https://www.miinto.com",
+    companyUrl: "https://lweb.cfa.harvard.edu/sma/",
     description:
       "Brought project management and software engineering best practices to the entire team. \
       Persuaded team to adopt Google Calendar, Slack, Google Team Drive, Feature Branching, Issue Tracking and Release Planning. \
